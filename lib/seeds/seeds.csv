@@ -1,0 +1,12 @@
+id,first_name,last_name,title,manager_id
+1,Dade,Murphy,CEO,null
+2,Kate,Libby,CTO,1
+3,Edward,Vedder,CFO,1
+4,Margo,Wallace,VP of Public Relations,1
+5,Eugene,Belfort,VP of Engineering,2
+6,Richard,Gill,Public Relations Manager,4
+7,Emmanuel,Goldstein,Lead Software Engineer,5
+8,Paul,Cook,Software Engineer,5
+9,Joey,Pardella,Junior Software Engineer,8
+10,Agnes,Pardella,Project Manager,4
+11,Ramon,Sanches,Software Engineer,8
