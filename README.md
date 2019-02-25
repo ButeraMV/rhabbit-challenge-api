@@ -1,24 +1,13 @@
-# README
+# Company Structure API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To use, clone this repository and cd into the directory.
 
-Things you may want to cover:
+From the terminal:
+  - Run `bundle` to install gems.
+  - Run `rails db:setup` to create and seed the database.
+  - Run `rails s` to start the server on `localhost:3000`
+ 
+### Endpoints
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`/api/v1/structure`: returns a full list of the company structure
+`/api/v1/structure/#{id}`: returns the manager and all direct reports
